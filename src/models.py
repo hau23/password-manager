@@ -107,7 +107,7 @@ class CardEntry(Entry):
     def to_dict(self):
         return {
             "type": "card",
-            "title": self._title,Z
+            "title": self._title,
             "card_number": self._card_number,
             "expiry": self._expiry,
             "cvv": self.__cvv,
